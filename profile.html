@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(to right, #c99ff7, #eda4db);
+      color: #fff;
+    }
+
+    .card {
+      background: #ffffff;
+      color: #333;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+      max-width: 400px;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .card-header {
+      background: #72a2f4;
+      padding: 20px;
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content p {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    .card-content img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 15px 0;
+    }
+
+    .card-footer {
+      padding: 10px;
+      background: #f4f4f4;
+    }
+
+    .card-footer button {
+      background: #2575fc;
+      border: none;
+      padding: 10px 15px;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .card-footer button:hover {
+      background: #1b5bbf;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="card-header">Magnolia Wei</div>
+    <div class="card-content">
+    <img src="profile.jpg" alt="Profile Picture">
+      <p>Hi Bits of Good! My name is Magnolia Wei. I'm a first year Electrical Engineering student at Tech. I'm passionate about software and hardware development and applying what I know to benefit real-world problems. I had great experiences volunteering at the autistic cafe and children's hospital, and I would love to use my skill set to help make healthcare services more efficient.</p>
+      
+
+</body>
+</html>
